@@ -73,7 +73,7 @@ main {
     display: flex;
     gap: 24px;
 }
-.jobs{
+.jobs-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }

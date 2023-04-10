@@ -1,23 +1,32 @@
 import React, { useEffect } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import JobDetails from '../JobDetails/JobDetails';
 
 const Jobs = () => {
-
+    const data = useLoaderData()
+    // console.log(data)
+    
     const dynamic =useParams();
-    console.log(dynamic.jobId);
+     const dynamicId = dynamic.jobId;
+    //  console.log(dynamicId)
 
     // const jobs = useLoaderData();
     // console.log(jobs);
+   
+    const jobDetails = data.find(job=>job.id ==dynamicId);
+    // console.log(jobDetails)
 
-    useEffect(()=>{
-     fetch(`jobs.json/${dynamic.jobId}`)
-     .then(res=>res.json())
-     .then(data=>console.log(data))
-    },[])
+    
+    // const {id,logo ,companyName ,jobName,location,salary,remoteOrOnsite ,fullTimeOrPartTime ,jobDescription ,educationalRequirements ,experience} = jobDetails
+    
+    for(const id in jobDetails){
+
+      
+        }
 
     return (
-        <div>
-           <h2>This is Job Details component</h2> 
+        <div className=''>
+
         </div>
     );
 };

@@ -1,0 +1,4 @@
+.jobDetails{
+    display: flex;
+    justify-content: space-around;
+}
