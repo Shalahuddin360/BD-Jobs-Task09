@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "companyLogo": "google.png",
+    "logo": "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png",
     "jobTitle": "Software Engineer",
     " companyName": "Google",
     "  remoteOrOnsite": "Remote",
@@ -21,7 +21,7 @@
   },
   {
     "id": 2,
-    "companyLogo": "tesla.png",
+    "logo": "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
     "jobTitle": "Electrical Engineer",
      "companyName":"Tesla",
       "remoteOrOnsite": "Onsite",
@@ -40,7 +40,7 @@
   },
   {
     "id": 3,
-    "companyLogo": "microsoft.png",
+    "logo": "https://www.freepnglogos.com/uploads/microsoft-logo-14.png",
     "jobTitle": "Product Manager",
 "      companyName": "Microsoft",
      " remoteOrOnsite": "Remote",
@@ -59,7 +59,7 @@
   },
   {
     "id": 4,
-    "companyLogo": "youtube.png",
+    "logo": "https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png",
     "jobTitle": "Content Strategist",
 "      companyName": "YouTube",
      " remoteOrOnsite": "Remote",
@@ -78,7 +78,7 @@
   },
   {
     "id": 5,
-    "companyLogo": "netflix.png",
+    "logo": "https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
       "jobName": "Senior Data Scientist",
 "      companyName": "Netflix",
       "remoteOrOnsite": "Remote",
@@ -97,7 +97,7 @@
   },
   {
     "id": 6,
-    "companyLogo":"facebook.png",
+    "logo":"https://www.freepnglogos.com/uploads/facebook-logo-png-transparent-background-3.png",
       "jobName": "Software Engineer",
 "      companyName": "Facebook",
       "remoteOrOnsite": "Onsite",

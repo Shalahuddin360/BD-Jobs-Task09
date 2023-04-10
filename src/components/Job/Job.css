@@ -1,0 +1,11 @@
+.job-circular{
+    border:2px solid goldenrod;
+    margin: 10px;
+    padding:10px;
+    height: 300px;
+   
+}
+.job-circular img{
+    width: 250px;
+    height: 150px;
+}

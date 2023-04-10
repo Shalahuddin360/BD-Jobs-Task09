@@ -2,8 +2,13 @@ import React, { useEffect, useState } from 'react';
 import img from '../../assets/All Images/P3OLGJ1 copy 1.png'
 import './Banner.css'
 import JobCategory from '../JobCategory/JobCategory';
+import Jobs from '../Jobs/Jobs';
+import { useLoaderData } from 'react-router-dom';
+import Job from '../Job/Job';
 
 const Banner = () => {
+
+
     const [jobsCategory,setJobsCategory]=useState([]);
 
     useEffect(()=>{
@@ -13,6 +18,10 @@ const Banner = () => {
 
     } ,[])
     // console.log(jobsCategory)
+
+    const jobs =useLoaderData();
+    console.log(jobs);
+
     return (
         <div>
             <div className='banner'>
@@ -40,8 +49,22 @@ const Banner = () => {
                   ></JobCategory>)}
                 </div>
                 </section>
-
-                
+             
+                <section>
+                 {/* <Jobs></Jobs> */}
+                 <h3 className="about-me-header" >Job Categories</h3>
+                    <p className="about-me-pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem cupiditate rerum maiores tempora omnis. </p>
+                    
+                    <div className='jobs'>
+                       {
+                        jobs.map(job=><Job 
+                            key={job.id}
+                            job={job}
+                            
+                            ></Job>)
+                       }
+                    </div>
+                </section>
             </main>
 
         </div>
