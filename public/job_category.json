@@ -1,0 +1,28 @@
+ [
+    {
+     "id" : 1,
+     " image": "https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
+      "jobType": "Marketing and Sales",
+     " jobsAvailable": 10
+    },
+    
+    {
+      "id" : 2,
+      "image": "https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
+     "jobType": "Creative Design",
+      "jobsAvailable": 5
+    },
+
+    {
+        "id" : 3,
+     "image": "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
+     " jobType": "Engineering",
+      "jobsAvailable": 8
+    },
+    {
+        "id" : 4,
+      "image": "https://www.freepnglogos.com/uploads/microsoft-logo-14.png",
+     " jobType": "Engineering",
+      "jobsAvailable": 12
+    }
+  ]

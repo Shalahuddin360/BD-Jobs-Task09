@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "google.png",
+    "jobTitle": "Software Engineer",
+    " companyName": "Google",
+    "  remoteOrOnsite": "Remote",
+    "  location": "",
+    "  fullTimeOrPartTime": "Full Time",
+    " salary": "Competitive",
+    "   jobDescription": "We are looking for a software engineer to join our team and help build the next generation of Google products.",
+    "jobDuties": [
+      "Design, develop, and test software', 'Collaborate with cross-functional teams', 'Troubleshoot and debug issues"
+    ],
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experience": "2+ years of software engineering experience",
+    "applyContact": {
+      "phone": "555-555-1234",
+      " email": "jobs@google.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "tesla.png",
+    "jobTitle": "Electrical Engineer",
+     "companyName":"Tesla",
+      "remoteOrOnsite": "Onsite",
+    "  location": "Fremont, California",
+      "fullTimeOrPartTime": "Full Time",
+     " salary": "Competitive",
+     " jobDescription": "We are looking for an electrical engineer to design and implement electrical systems for Tesla vehicles.",
+     " jobDuties": ["Design and develop electrical systems', 'Collaborate with cross-functional teams', 'Test and debug electrical systems"
+    ],
+     " educationalRequirements": "Bachelor's degree in Electrical Engineering or related field",
+"      experience": "3+ years of electrical engineering experience",
+"      applyContact": {
+ "       phone": "555-555-5678",
+"        email": "jobs@tesla.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "microsoft.png",
+    "jobTitle": "Product Manager",
+"      companyName": "Microsoft",
+     " remoteOrOnsite": "Remote",
+     " location": "Anywhere",
+      "fullTimeOrPartTime": "Full Time",
+     " salary": "Competitive",
+     " jobDescription": "We are seeking a product manager to help define and execute the product roadmap for our Azure cloud platform.",
+     " jobDuties": ["Define product vision and strategy', 'Collaborate with engineering teams to execute on product roadmap', 'Gather customer feedback and drive product improvements"
+    ],
+     " educationalRequirements":"Bachelor's degree in Computer Science or related field",
+     " experience":"5+ years of product management experience",
+      "applyContact": {
+        "phone": "555-555-9012",
+       " email": "jobs@microsoft.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "youtube.png",
+    "jobTitle": "Content Strategist",
+"      companyName": "YouTube",
+     " remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullTimeOrPartTime": "Full Time",
+     " salary": "Competitive",
+     " jobDescription":"We are looking for a content strategist to help shape the future of YouTube content.",
+     " jobDuties": ["Develop and execute content strategy', 'Collaborate with content creators and cross-functional teams', 'Analyze data to inform content decisions"
+    ],
+     " educationalRequirements":"Bachelor's degree in Marketing or related field",
+      "experience":"3+ years of content strategy experience",
+      "applyContact": {
+        "phone": "555-555-3456",
+        "email": "jobs@youtube.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "netflix.png",
+      "jobName": "Senior Data Scientist",
+"      companyName": "Netflix",
+      "remoteOrOnsite": "Remote",
+      "location": "Anywhere",
+      "fullTimeOrPartTime": "Full Time",
+     " salary": "Competitive",
+     " jobDescription": "We are looking for a senior data scientist to join our data science team and help us build world-class recommendation systems.",
+    "  jobDuties": ["Develop and deploy machine learning models', 'Collaborate with cross-functional teams', 'Analyze and interpret large data sets"
+    ],
+     " educationalRequirements": "PhD in Computer Science, Statistics, or related field",
+      "experience": "5+ years of experience in data science or machine learning",
+      "applyContact": {
+       "phone": "555-555-1234",
+        "email": "jobs@netflix.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo":"facebook.png",
+      "jobName": "Software Engineer",
+"      companyName": "Facebook",
+      "remoteOrOnsite": "Onsite",
+      "location": "Menlo Park, California",
+      "fullTimeOrPartTime": "Full Time",
+     " salary": "Competitive",
+     " jobDescription": "We are looking for a software engineer to join our team and help us build and scale our social media platform.",
+    "  jobDuties": ["Design, develop, and test software', 'Collaborate with cross-functional teams', 'Troubleshoot and debug issues"],
+     " educationalRequirements": "Bachelor's degree in Computer Science or related field",
+      "experience": "3+ years of software engineering experience",
+      "applyContact": {
+        "phone": "555-555-5678",
+        "email": "obs@facebook.com"}
+  }
+]

@@ -1,0 +1,17 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+ nav.header a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav.header a:hover{
+    /* color:linear-gradient(90deg, #7E90FE 0%, #9873FF 100%); */
+    color:orange;
+}
+
