@@ -1,28 +1,28 @@
  [
     {
      "id" : 1,
-     " image": "https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
-      "jobType": "Marketing and Sales",
-     " jobsAvailable": 10
+     "image":"https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
+     "jobType":"Marketing and Sales",
+     "jobsAvailable": "100 Jobs Available"
     },
     
     {
-      "id" : 2,
-      "image": "https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
-     "jobType": "Creative Design",
-      "jobsAvailable": 5
+      "id": 2,
+      "image":"https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon.png",
+      "jobType":"Creative Design",
+      "jobsAvailable":"100 Jobs Available"
     },
 
     {
-        "id" : 3,
-     "image": "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
-     " jobType": "Engineering",
-      "jobsAvailable": 8
+      "id" : 3,
+     "image":"https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
+      "jobType":"Engineering",
+      "jobsAvailable": "100 Jobs Available"
     },
     {
         "id" : 4,
-      "image": "https://www.freepnglogos.com/uploads/microsoft-logo-14.png",
-     " jobType": "Engineering",
-      "jobsAvailable": 12
+      "image":"https://cdn-icons-png.flaticon.com/512/1024/1024914.png",
+     "jobType":"Technical Engineer",
+      "jobsAvailable":"100 Jobs Available"
     }
   ]

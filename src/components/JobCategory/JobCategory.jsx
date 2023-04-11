@@ -1,17 +1,21 @@
 import React from 'react';
-import './JobCategory.css'
+// import './JobCategory.css'
 const JobCategory = ({jobCategory}) => {
     // console.log(jobCategory)
-    const {image ,jobType,jobsAvailable} = jobCategory
+    const { image, jobType, jobsAvailable } = jobCategory
     console.log(image);
     return (
-        <div>
-                 <div className="skill">
-                        <img className='img' src={image} alt="" />
-                        <p className="skill-title">{jobType}</p>
-                        <p className="skill-description">{jobsAvailable}</p>
-                 </div>
+        <div className="card w-96 lg:w-72 bg-base-100 shadow-xl mr-4">
+        <figure className="px-10 pt-10">
+          <img src={image} alt="Shoes" className="rounded-xl " />
+        </figure>
+
+        <div className="card-body items-center text-center">
+          <h2 className="card-title">{jobType}</h2>
+          <p>{jobsAvailable}</p>
         </div>
+      </div>
+
     );
 };
 
