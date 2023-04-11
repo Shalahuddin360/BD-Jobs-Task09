@@ -9,3 +9,16 @@
     width: 150px;
     height: 150px;
 }
+.job-info{
+    display: flex;
+}
+.job-info button{
+    margin: 10px;
+    color:#9873FF ;
+}
+.job-details{
+    display: flex;
+}
+.job-details p{
+    margin-right:10px ;
+}

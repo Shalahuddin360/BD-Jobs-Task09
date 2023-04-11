@@ -11,7 +11,7 @@ const Banner = () => {
 
 
     const [jobsCategory,setJobsCategory]=useState([]);
-    const[cart,setCart] =useState([])
+    // const[cart,setCart] =useState([]);
 
     useEffect(()=>{
       fetch('job_category.json')
@@ -25,7 +25,7 @@ const Banner = () => {
     const jobs =useLoaderData();
     // console.log(jobs);
   /********************/ 
-  useEffect(() =>{
+/*   useEffect(() =>{
     const storedCart = getShoppingCart()
 
     const savedCart = [];
@@ -45,7 +45,7 @@ const Banner = () => {
     }
     // step 5: set the cart
     setCart(savedCart);
-}, [jobs])
+}, [jobs]) */
 /********************/ 
     return (
         <div className='banner-container'>
@@ -60,8 +60,8 @@ const Banner = () => {
             </div>
             <main>
                 <section className='about-me-title'>
-                <h3 className="about-me-header" >Job Categories</h3>
-                    <p className="about-me-pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem cupiditate rerum maiores tempora omnis. Explicabo placeat incidunt autem, provident quibusdam voluptas unde deserunt esse distinctio doloremque quae aut laboriosam, quis adipisci, ab officia mollitia. Qui consequatur soluta ut recusandae?</p>
+                <h3 className="about-me-header" >Job Category List</h3>
+                    <p className="about-me-pera">Explore thousands of job opportunities with all the information you need. Its your future .</p>
 
                {/*  <!-- .skills-container>.skill*4>img+p.skill-title+p.skill-description>lorem15 --> */}
 
@@ -77,8 +77,8 @@ const Banner = () => {
              
                 <section>
                  {/* <Jobs></Jobs> */}
-                 <h3 className="about-me-header" >Job Categories</h3>
-                    <p className="about-me-pera">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem cupiditate rerum maiores tempora omnis. </p>
+                 <h3 className="about-me-header" >Featured Jobs</h3>
+                    <p className="about-me-pera">Explore thousands of job opportunities with all the information you need. Its your future .</p>
                     
                     <div className='jobs-container'>
                        {

@@ -12,6 +12,7 @@ const AppliedJob = () => {
             <div className='review-container'>
                 {
                    jobs.map(job=> <ReviewJob 
+                    
                     key={job.id}
                     job={job}
                    
