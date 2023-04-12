@@ -2,7 +2,7 @@
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
     "logo": "https://www.freepnglogos.com/uploads/google-logo-png/google-logo-icon-png-transparent-background-osteopathy-16.png",
-    "jobName": "Software Engineer",
+    "jobName": "Mechanical Engineer",
     "companyName": "Google",
     "remoteOrOnsite":"Remote",
     "location": "Dhaka Bangladesh",
@@ -16,13 +16,13 @@
     "experience": "2+ years of software engineering experience",
   
       "phone": "555-555-1234",
-      " email": "jobs@google.com"
+      "email": "jobs@google.com"
 
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "logo": "https://freepngimg.com/thumb/facebook/62487-bluetie-icons-computer-facebook-login-icon-email.png",
-    "jobName": "Electrical Engineer",
+    "jobName": "Marketing Engineer",
      "companyName":"Facebook",
       "remoteOrOnsite": "Onsite",
      "location": "Fremont, California",
@@ -40,7 +40,7 @@
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy3eGP-h7Zu4YK1RXxZqRZRLIPdb2zswqz50ODuOlP_Y1pS0Ek&s",
+    "logo": "https://pngimg.com/uploads/amazon/small/amazon_PNG5.png",
     "jobName": "Product Manager",
     "companyName": "Amazon",
      "remoteOrOnsite": "Remote",
@@ -52,8 +52,8 @@
      "educationalRequirements":"Bachelor's degree in Computer Science or related field",
      "experience":"5+ years of product management experience",
  
-        "phone": "555-555-9012",
-       " email": "jobs@microsoft.com"
+      "phone": "555-555-9012",
+       "email": "jobs@microsoft.com"
 
   },
   {
@@ -94,9 +94,9 @@
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-    "logo":"https://www.freepnglogos.com/uploads/adobe-creative-cloud-logo-picture-3.png",
+    "logo":"https://pngimg.com/uploads/twitter/small/twitter_PNG3.png",
       "jobName": "Software Engineer",
-       "companyName": "Adobe Creative Cloud",
+       "companyName": "Twitter",
       "remoteOrOnsite": "Onsite",
       "location": "Menlo Park, California",
       "fullTimeOrPartTime": "Full Time",

@@ -23,7 +23,7 @@ const Header = () => {
             </svg>
           </div>
 
-          <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 '>
+          <span className='ml-2 text-xl font-bold tracking-wide text-gray-200 '>
            BD JOBS
           </span>
         </Link>
@@ -70,6 +70,7 @@ const Header = () => {
            Blog
             </NavLink>
           </li>
+          <button className='btn btn-outline text-primary-focus-primary  '>Star Applying</button>
         </ul>
         
         <div className='lg:hidden'>
@@ -145,7 +146,7 @@ const Header = () => {
                         title='Home'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                       Statistics
+                       Home
                       </Link>
                     </li>
                     <li>

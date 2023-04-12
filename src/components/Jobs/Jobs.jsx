@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import JobDetails from '../JobDetails/JobDetails';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
@@ -39,14 +38,14 @@ const Jobs = () => {
                 <div className="col">
                     <div className="card">
                         <div className="card-body">
-                            <p className="card-text"><span className='font-bold'>Job Description: </span> {jobDescription}</p>
-                            <p className="card-text"><span className='font-bold'>Job Responsibility:</span> {jobDuties}</p>
-                            <p className="card-text"><span className='font-bold'>Educational Requirements:</span>      {educationalRequirements}</p>
-                            <p className="card-text"><span className='font-bold'>Experience:</span> {experience}</p>
+                            <p className="card-text"><span className='font-bold text-2xl'>Job Description: </span> {jobDescription}</p>
+                            <p className="card-text"><span className='font-bold text-2xl'>Job Responsibility:</span> {jobDuties}</p>
+                            <p className="card-text"><span className='font-bold text-2xl'>Educational Requirements:</span>      {educationalRequirements}</p>
+                            <p className="card-text"><span className='font-bold text-2xl'>Experience:</span> {experience}</p>
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col bg-base-300 rounded-md">
                     <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Job Details :</h5>
@@ -54,7 +53,7 @@ const Jobs = () => {
                             <p className="card-text"><span className='font-bold'>Job Title:</span> {jobName} (Per Month)</p>
                             <h5 className="card-title">Contact Information :</h5>
                             <p className="card-text"><span className='font-bold'>Phone:</span>{phone}</p>
-                            <p className="card-text"><span className='font-bold'>Email:</span>{email} </p>
+                            <p className="card-text"><span className='font-bold'>Email:</span>{email}</p>
                             <p className="card-text"><span className='font-bold'> Address:</span> <FontAwesomeIcon icon={faLocationDot} /> <a href="#">{location}</a> </p>
                         </div>
                         <div className="card-actions justify-end">

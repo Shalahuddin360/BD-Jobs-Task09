@@ -35,7 +35,7 @@ const [getJobs , setGetJobs] = useState([])
         <div className=''>
           
             <div className='review-container'>
-             {/* jobs.map(job)  */}
+         
 
                 {
                    getJobs.map(getJob=> <ReviewJob 

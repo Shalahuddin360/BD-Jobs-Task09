@@ -9,7 +9,7 @@ const ReviewJob = ({getJob}) => {
 // console.log(job)
 const{logo , companyName, remoteOrOnsite,fullTimeOrPartTime ,location , salary ,jobName} = getJob
     return (
-        <div className='review-item bg-base-100 shadow-xl '>
+        <div className='review-item bg-base-300 shadow-xl '>
            <img src={logo} alt="" />
            <div className='review-details'>
               <p className='job-title' >{jobName}</p>  

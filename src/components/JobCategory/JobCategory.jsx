@@ -1,5 +1,4 @@
 import React from 'react';
-// import './JobCategory.css'
 const JobCategory = ({jobCategory}) => {
     // console.log(jobCategory)
     const { image, jobType, jobsAvailable } = jobCategory

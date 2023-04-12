@@ -1,28 +1,28 @@
  [
     {
      "id" : 1,
-     "image":"https://www.freepnglogos.com/uploads/netflix-logo-circle-png-5.png",
-     "jobType":"Marketing and Sales",
+     "image":"https://w7.pngwing.com/pngs/63/19/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png",
+     "jobType":"Database Eng.",
      "jobsAvailable": "100 Jobs Available"
     },
     
     {
       "id": 2,
       "image":"https://w7.pngwing.com/pngs/452/24/png-transparent-js-logo-node-logos-and-brands-icon.png",
-      "jobType":"Creative Design",
-      "jobsAvailable":"100 Jobs Available"
+      "jobType":"Node JS",
+      "jobsAvailable":"120 Jobs Available"
     },
 
     {
       "id" : 3,
      "image":"https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
-      "jobType":"Engineering",
-      "jobsAvailable": "100 Jobs Available"
+      "jobType":"React Developer",
+      "jobsAvailable": "150 Jobs Available"
     },
     {
         "id" : 4,
-      "image":"https://cdn-icons-png.flaticon.com/512/1024/1024914.png",
-     "jobType":"Technical Engineer",
-      "jobsAvailable":"100 Jobs Available"
+      "image":"https://raw.githubusercontent.com/ijsto/reactnextjssnippets/master/images/logo02.png",
+     "jobType":"Next JS ",
+      "jobsAvailable":"80 Jobs Available"
     }
   ]

@@ -11,7 +11,7 @@ const Banner = () => {
 
 
     const [jobsCategory, setJobsCategory] = useState([]);
-    // const[cart,setCart] =useState([]);
+
 
     useEffect(() => {
         fetch('/job_category.json')
@@ -20,33 +20,8 @@ const Banner = () => {
 
     }, [])
 
-    // console.log(jobsCategory)
 
     const jobs = useLoaderData();
-    // console.log(jobs);
-    /********************/
-    /*   useEffect(() =>{
-        const storedCart = getShoppingCart()
-    
-        const savedCart = [];
-        // step 1: get id of the addedProduct
-        for(const id in storedCart){
-            console.log(id);
-            // step 2: get product from products state by using id
-            const addedProduct = jobs.find(job => job.id === id)
-            if(addedProduct){
-                // step 3: add quantity
-                const quantity = storedCart[id];
-                addedProduct.quantity = quantity;
-                // step 4: add the added product to the saved cart
-                savedCart.push(addedProduct);
-            }
-            // console.log('added Product', addedProduct)
-        }
-        // step 5: set the cart
-        setCart(savedCart);
-    }, [jobs]) */
-    /********************/
     return (
         <div className='w-full mx-auto items-center'>
             <div className='container flex flex-col sm:flex-col mx-auto lg:flex-row items-center my-3  md:px-28  mt-7'>
@@ -66,12 +41,12 @@ const Banner = () => {
 
             <main className='container flex flex-col items-center px-6 mx-auto'>
                 <section className='mt-7'>
-                    <h3 className="text-center mb-6" >Job Category List</h3>
-                    <p className="text-center mb-6">Explore thousands of job opportunities with all the information you need. Its your future .</p>
+                    <h3 className="text-center font-semibold text-3xl mb-6" >Job Category List</h3>
+                    <p className="text-center font-medium mb-6">Explore thousands of job opportunities with all the information you need. Its your future .</p>
 
                   
 
-                    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:  items-center gap-4 mx-auto">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center lg:  items-center gap-4 mx-auto">
 
                         {
 
@@ -89,7 +64,7 @@ const Banner = () => {
                     <h3 className="text-center font-bold text-4xl my-14" >Featured Jobs</h3>
                     <p className="text-center my-8 text-2xl">Explore thousands of job opportunities with all the information you need. Its your future .</p>
 
-                    <div className='grid sm:grid-cols-1 md:grid-cols-2 items-center gap-4 mx-auto'>
+                    <div className='grid sm:grid-cols-1 md:grid-cols-2 justify-center items-center gap-4 lg:gap-x-4 mx-auto'>
                         {
                             jobs.map(job => <Job
                                 key={job.id}

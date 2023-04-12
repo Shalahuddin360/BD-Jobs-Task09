@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStarAndCrescent } from '@fortawesome/free-solid-svg-icons'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 const Statistics = () => {
     const marks = [
@@ -13,7 +15,14 @@ const Statistics = () => {
     ]
     return (
         <div className='container'>
-        <h2 className='my-4'>Assignment Marks</h2>
+        <h2 className='my-4 px-8  text-5xl font-bold'>Assignment Analytics</h2>
+        <div className='flex font-semibold px-8 mt-7 mb-5 '  >
+        <FontAwesomeIcon className='text-5xl mr-6'  icon={faStarAndCrescent}/>
+            <div>
+                <h3>58.88</h3>
+                <p>Average Assignment Mark</p>
+            </div>
+        </div>
         <AreaChart
             width={1000}
             height={400}
