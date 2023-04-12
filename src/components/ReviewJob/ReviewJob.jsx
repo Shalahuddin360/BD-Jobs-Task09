@@ -3,6 +3,7 @@ import './ReviewJob.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 
 const ReviewJob = ({getJob}) => {
@@ -23,7 +24,7 @@ const{logo , companyName, remoteOrOnsite,fullTimeOrPartTime ,location , salary ,
                 <p>  <FontAwesomeIcon className='dollar-icon' icon={faDollarSign} /> {salary}</p>
               </div>
            </div>
-           <button className='btn-details'>View Details</button>
+           <Link to="/" className='btn-details flex justify-center items-center'>View Details</Link>
         </div>
     );
 };
