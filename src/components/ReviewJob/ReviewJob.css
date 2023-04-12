@@ -6,6 +6,8 @@
     margin:25px auto;
     display: flex;
     align-items: center;
+    background: #a9a6a6;
+
     
 }
 .review-item img{

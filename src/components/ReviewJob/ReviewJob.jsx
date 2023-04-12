@@ -5,11 +5,11 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
 
 
-const ReviewJob = ({job}) => {
+const ReviewJob = ({getJob}) => {
 // console.log(job)
-const{logo , companyName, remoteOrOnsite,fullTimeOrPartTime ,location , salary ,jobName} = job
+const{logo , companyName, remoteOrOnsite,fullTimeOrPartTime ,location , salary ,jobName} = getJob
     return (
-        <div className='review-item'>
+        <div className='review-item bg-base-100 shadow-xl '>
            <img src={logo} alt="" />
            <div className='review-details'>
               <p className='job-title' >{jobName}</p>  

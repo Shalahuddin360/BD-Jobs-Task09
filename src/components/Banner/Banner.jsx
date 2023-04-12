@@ -48,30 +48,30 @@ const Banner = () => {
     }, [jobs]) */
     /********************/
     return (
-        <>
-            <div className=' container flex flex-col sm:flex-col mx-auto  md:flex-col lg:flex-row items-center justify-center my-3  md:px-28 lg:max-w-screen-xl lg:px-8'>
-                <div className='w-screen'>
-                    <h3 className='text-8xl font-bold'>Hi! I am </h3>
-                    <h1 className='text-5xl font-bold'>Shalahuddin</h1>
-                    <p className='text-3xl font-light'>Explore thousands of job opportunities with all the information you need. </p>
-                    <button className='btn btn-primary'>Get Start</button>
+        <div className='w-full mx-auto items-center'>
+            <div className='container flex flex-col sm:flex-col mx-auto lg:flex-row items-center my-3  md:px-28  mt-7'>
+                <div className='w-screen mx-auto'>
+                    <h3 className='text-5xl font-bold'>One Step </h3>
+                    <h1 className='text-3xl font-bold my-3'>Dream Job</h1>
+                    <p className='text-2xl font-light'>Explore thousands of job opportunities with all the information you need. </p>
+                    <button className='btn btn-primary mt-5'>Get Start</button>
                 </div>
 
-                <div  className='w-96'>
+                <div  className='sm:w-96 md:w-full mx-auto'>
                     <img src={img} alt="" />
                 </div>
 
 
             </div>
 
-            <main className='container flex flex-col items-center p-4 mx-auto'>
+            <main className='container flex flex-col items-center px-6 mx-auto'>
                 <section className='mt-7'>
                     <h3 className="text-center mb-6" >Job Category List</h3>
                     <p className="text-center mb-6">Explore thousands of job opportunities with all the information you need. Its your future .</p>
 
                   
 
-                    <div className=" grid  md:grid-cols-2 lg:grid-cols-4  lg:justify-between gap-4 mx-auto">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:  items-center gap-4 mx-auto">
 
                         {
 
@@ -89,7 +89,7 @@ const Banner = () => {
                     <h3 className="text-center font-bold text-4xl my-14" >Featured Jobs</h3>
                     <p className="text-center my-8 text-2xl">Explore thousands of job opportunities with all the information you need. Its your future .</p>
 
-                    <div className='grid sm:grid-cols-1 md:grid-cols-2 justify-between gap-4 mx-auto'>
+                    <div className='grid sm:grid-cols-1 md:grid-cols-2 items-center gap-4 mx-auto'>
                         {
                             jobs.map(job => <Job
                                 key={job.id}
@@ -100,7 +100,7 @@ const Banner = () => {
                     </div>
                 </section>
             </main>
-        </>
+        </div>
 
 
     );

@@ -11,30 +11,7 @@ const Job = ({ job }) => {
   return (
 
     <div >
-      {/* 
-           <div className='job-circular'>
-          <img src={logo} alt="" />
-            <h3>{jobName}</h3>
-            <p><small>{companyName}</small></p>
-            <div className='job-info'>
-                <button>{remoteOrOnsite}</button>
-                <button>{fullTimeOrPartTime}</button>
-            </div>
-            <div className='job-details'>
-                <p>
-                <FontAwesomeIcon icon={faLocationDot} />
-                  <a href="#">{location}</a>
-                  </p>
-                <p> salary:
-                 <FontAwesomeIcon icon={faDollarSign} />
-               {salary}</p>
-            </div>
-            <button className='btn-details'><Link to={`/job/${id}`} >View Details</Link></button>
-          </div> 
-          
-          */} 
-
-      <div className="card w-100 mr-2 mb-4 glass bg-base-100 shadow-xl">
+     <div className="card w-96 sm:w-9/12 lg:w-96 mr-2 mb-4 glass bg-base-100 shadow-xl  h-full">
         <figure><img className='w-48' src={logo} alt="car!" /></figure>
         <div className="card-body">
           <h2 className="card-title text-center">{jobName}</h2>
