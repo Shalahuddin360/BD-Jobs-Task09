@@ -15,7 +15,7 @@ const{logo , companyName, remoteOrOnsite,fullTimeOrPartTime ,location , salary ,
               <p className='job-title' >{jobName}</p>  
               <p><small>{companyName}</small></p>
               <div className='job-info'>
-                <button>{remoteOrOnsite}</button>
+                <button>{remoteOrOnsite}</button> 
                 <button>{fullTimeOrPartTime}</button>
               </div>
               <div className='job-details'>

@@ -4,20 +4,19 @@ import JobDetails from '../JobDetails/JobDetails';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faDollarSign } from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/fakedb';
 
 const Jobs = () => {
+
     const [details, setDetails] = useState({})
     const data = useLoaderData()
     // console.log(data)
 
     const dynamic = useParams();
     const dynamicId = dynamic.jobId;
-
-    //  console.log(typeof(dynamicId))
-
-
     const jobs = useLoaderData();
     // console.log(jobs);
+
     useEffect(() => {
         if (jobs) {
             const detailsJob = jobs.find(job => job.id === dynamicId)
@@ -26,15 +25,12 @@ const Jobs = () => {
         }
     }, [])
 
-    // console.log(details);
-
-    // const jobDetails = data.find(job=>job.id ==dynamicId);
-    // console.log(jobDetails)
-
 
     const { id, logo, companyName, jobName, location, salary, remoteOrOnsite, fullTimeOrPartTime, jobDescription, educationalRequirements, experience, jobDuties, email, phone } = details
 
-
+    const handleAddToJob =()=>{
+       addToDb(details.id)
+    }
 
     return (
         <div className=''>
@@ -62,7 +58,7 @@ const Jobs = () => {
                             <p className="card-text"><span className='font-bold'> Address:</span> <FontAwesomeIcon icon={faLocationDot} /> <a href="#">{location}</a> </p>
                         </div>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Apply Now</button>
+                            <button className="btn btn-primary" onClick={()=>handleAddToJob(id)} >Apply Now</button>
                         </div>
                     </div>
                 </div>

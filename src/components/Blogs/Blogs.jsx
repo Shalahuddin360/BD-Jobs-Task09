@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-  <div>
+  <div className='px-12 w-72 md:w-9/12 mx-auto'>
         <div tabIndex={0} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
 
         <div className="collapse-title text-xl font-medium">

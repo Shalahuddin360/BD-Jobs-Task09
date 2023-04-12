@@ -1,7 +1,7 @@
 import { getShoppingCart } from "../utilities/fakedb";
 
 const jobsLoader = async ()=>{
-    const loadedJobs = await fetch('jobs.json')
+    const loadedJobs = await fetch('/jobs.json')
     const jobs = await loadedJobs.json();
 //if cart data is in database , you have to use async await
 const storedCart = getShoppingCart();
