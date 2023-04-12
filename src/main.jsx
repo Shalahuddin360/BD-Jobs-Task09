@@ -12,6 +12,9 @@ import Jobs from './components/Jobs/Jobs';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import jobsLoader from './loaders/jobsLoader';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Statistics from './components/Statistics/Statistics';
+import Blogs from './components/Blogs/Blogs';
+
 
 
 const router = createBrowserRouter([
@@ -34,6 +37,16 @@ const router = createBrowserRouter([
     path:'/applied',
     element:<AppliedJob></AppliedJob>,
     loader: jobsLoader,
+  },
+  {
+    path:'/statistics',
+    element:<Statistics></Statistics>
+  
+  },
+  {
+    path:'/blog',
+    element:<Blogs></Blogs>
+  
   },
   {
     path: '*',
